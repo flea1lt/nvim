@@ -27,4 +27,11 @@ return {
       vim.cmd.colorscheme("tokyonight")
     end,
   },
+
+  -- trouble
+  {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    opts = {},
+  },
 }
