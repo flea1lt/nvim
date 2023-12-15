@@ -35,9 +35,11 @@ return {
     opts = {},
   },
 
-  {
-    "folke/todo-comments.nvim",
-    dependencies = { "nvim-lua/plenary.nvim" },
-    opts = {},
-  },
+  -- disable because a start page flash
+  -- todo-comments
+  -- {
+  --   "folke/todo-comments.nvim",
+  --   dependencies = { "nvim-lua/plenary.nvim" },
+  --   opts = {},
+  -- },
 }
