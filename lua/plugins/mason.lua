@@ -4,10 +4,11 @@ return {
     ensure_installed = {
       "stylua",
       "shfmt",
+      "codelldb",
     },
   },
   config = function(_, opts)
-    require("mason").setup(opts)
+    require("mason").setup()
     local mr = require("mason-registry")
     local function ensure_installed()
       for _, pkg in ipairs(opts.ensure_installed) do
